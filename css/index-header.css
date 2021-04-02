@@ -10,6 +10,125 @@
 }
 
 body {
-    max-width: 980px;
+    max-width: 920px;
     margin: auto;
 }
+
+header {
+    background-image: url("../img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+nav .logo img {
+    width: 120px;
+    padding-top: 8px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 5px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.open-btn {
+    background-color: transparent;
+    border: 0;
+    color: var(--main-color);
+    font-size: 30px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.open-btn span:hover {
+    color: var(--btn-text-color);
+}
+
+.nav-bar {
+    display: none;
+}
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li {
+    list-style-type: none;
+}
+
+.nav-bar li a {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.main-page h1 {
+    padding-left: 30px;
+    font-family: var(--main-font-family);
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+    line-height: 1;
+}
+
+.main-page span {
+    color: var(--primary-color);
+}
+
+.main-page p {
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    padding-left: 30px;
+
+}
+
+.green-black-btn {
+    background-color: transparent;
+    border: 0;
+    border-radius: 5px;
+    color: var(--third-color);
+    font-family: var(--primary-font-family);
+    font-weight: bold;
+    text-transform:uppercase;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    padding: 8px 12px;
+    margin-left: 30px;
+  }
+  
+@media(min-width: 500px) {
+    .main-page h1 {
+        padding-right: 200px;
+    }
+}
+
+
+@media(min-width: 700px) {
+    .main-page h1 {
+        padding-right: 300px;
+    }
+}
+
+  @media(min-width: 920px){
+      .open-btn {
+          display: none;
+      }
+ 
+      .nav-bar {
+          display: contents;
+      }
+    
+      .main-page h1 {
+        padding-right: 500px;
+    }
+  }
