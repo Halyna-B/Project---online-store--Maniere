@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+:root {
+    --main-font-family: 'Poppins', sans-serif;
+    --primary-font-family: 'Hind', sans-serif;
+    --main-color: #333333;
+    --primary-color: #7bb57c;
+    --third-color: #fff;
+    --btn-text-color: #757171;
+    }
+
+.promotion {
+    padding: 30px;
+}
+
+.promotion span {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.promotion img {
+    width: 100%;
+}
+
+.tables-cabinets img {
+    height: 45%;
+}
+
+.promotion p {
+    font-family: var(--primary-font-family);
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.promotion p:hover {
+    text-decoration: underline;
+}
+
+.tables-cabinets, .white-collection, .modern-collection {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    font-size: 20px;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+
+@media(min-width: 700px) {
+    .promotion {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+}
+
+
+@media(min-width: 800px) {
+    .promotion {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tables-cabinets img {
+        height: 44%;
+    }
+    
+}
+
+.collection-title {
+    background-image: url("../img/background-texture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: var(--main-color);
+    font-family: var(--main-font-family);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.collection-title span {
+    color: var(--primary-color);
+}
+
+@media(min-width: 800px){
+    .collection-title {
+        font-size: 45px;
+    }
+}
+
+
+.best-selling h2 {
+  font-family: var(--main-font-family);
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+.best-selling p {
+    font-family: var(--primary-font-family);
+    color: var(--main-color);
+    font-size: 20px;
+    text-align: center;
+  }
+
+.best-selling-products h3 {
+    font-weight: 400;
+  } 
+
+.best-selling-products p {
+    color: var(--primary-color);
+    font-family: var(--main-font-family);
+    font-weight: 800;
+}
+
+.best-selling-products {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    text-align: center;
+}
+
+.best-selling-products .green-black-btn {
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: var(--main-font-family);
+    font-size: 13px;
+}
+
+.best-selling-products img {
+   width: 100% ;
+}
+
+.lord-armchair, .ultimate-chair, .valetta-armchair {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var(--main-font-family);
+}
+
+@media(min-width: 800px) {
+    .best-selling-products {
+        grid-template-rows: none;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media(min-width: 900px) {
+    .best-selling-products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.spring-collection-title {
+    background-image: url("../img/back-photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px;
+}
+
+.spring-collection-title h2{
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+    font-size: 45px;
+}
+
+.spring-collection-title span{
+    color: var(--primary-color);
+}
+
+.spring-collection-title p {
+    font-family: var(--main-font-family);
+    color:var(--main-color);
+
+}
+
+.spring-collection-title .green-black-btn {
+    font-family: var(--main-font-family);
+    font-size: 13px;
+}
+
+
+@media(min-width:600px){
+    .spring-collection-title {
+    background-attachment:fixed;
+    background-size: cover;
+    padding: 100px;
+    }
+    .spring-collection-title h2{
+        font-family: var(--main-font-family);
+        color: var(--main-color);
+        font-size: 60px;
+    }
+}
+
+.wood-interior {
+    background-image: url("../img/wood-back-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    color: var(--third-color);
+}
+
+.black-interior {
+    background-image: url("../img/interier-black.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    color: var(--third-color);
+}
+
+.wood-and-black-interior {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 15px;
+    padding: 30px;
+}
+
+@media(min-width: 650px){
+    .wood-and-black-interior {
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+}
