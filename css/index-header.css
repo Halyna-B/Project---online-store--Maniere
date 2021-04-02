@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Poppins&display=swap');
+
+:root {
+--main-font-family: 'Poppins', sans-serif;
+--primary-font-family: 'Hind', sans-serif;
+--main-color: #333333;
+--primary-color: #7bb57c;
+--third-color: #fff;
+--btn-text-color: #757171;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
