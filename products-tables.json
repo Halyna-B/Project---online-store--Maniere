@@ -1,0 +1,26 @@
+[
+    {
+        "id":9,
+        "image":"white-table.png",
+        "title":"Upi table, Landstrom",
+        "price": 90.00
+    },
+    {
+        "id":10,
+        "image":"gold-table.png",
+        "title":"Monica table, Orro",
+        "price": 110.00
+    },
+    {
+        "id":11,
+        "image":"wood-table.png",
+        "title":"Snitch cabinet, ARM",
+        "price": 100.00
+    },
+    {
+        "id":12,
+        "image":"gray-table.png",
+        "title":"Hugo table, KUKO studio",
+        "price": 99.00
+    }
+]

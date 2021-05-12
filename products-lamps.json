@@ -1,0 +1,26 @@
+[
+    {
+        "id":5,
+        "image":"white-lamp.png",
+        "title":"3-peace Minimal, ARM",
+        "price": 110.00
+    },
+    {
+        "id":6,
+        "image":"red-lamp.png",
+        "title":"Red Drops, KUKO",
+        "price": 210.00
+    },
+    {
+        "id":7,
+        "image":"gold-lamp.png",
+        "title":"Delar, Uni Studio",
+        "price": 350.00
+    },
+    {
+        "id":8,
+        "image":"bright-lamp.png",
+        "title":"Bubbles, Udion",
+        "price": 410.00
+    }
+]

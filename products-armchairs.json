@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "image":"yellow-fusion-armchair.png",
+        "title":"Fusion armchair, LEXX",
+        "price": 320.00
+    },
+    {
+        "id":2,
+        "image":"biej-aurora-armchair.png",
+        "title":"Aurora armchair, MDS",
+        "price": 210.00
+    },
+    {
+        "id":3,
+        "image":"blue-cloud-armchair.png",
+        "title":"Cloud armchair, DIX",
+        "price": 150.00
+    },
+    {
+        "id":4,
+        "image":"white-gray-jeanine-armchair.png",
+        "title":"Jeanine armchair, KUKO",
+        "price": 210.00
+    }
+]
