@@ -268,16 +268,34 @@
     padding: 0 30px 0 30px;
 }
 
-.furniture-sections button {
+/* .furniture-sections button {
  background: transparent;
  border-color: transparent;
-}
+} */
 
 .shop-range {
     display: grid;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 25px;
     padding: 20px;
+}
+
+@media(min-width: 650px){
+    .shop-range {
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    padding: 20px;
+    }
+}
+
+@media(min-width: 800px){
+    .shop-range {
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    padding: 20px;
+    }
 }
 
 .shop-range img {
