@@ -95,6 +95,7 @@ function renderProducts(products){
         </article>
         `
     }
+    renderProducts(JSON.parse(armchairsJSON));
 
     document.querySelector('.armchairs').addEventListener('click', armchairRendering);
     document.querySelector('.lamps').addEventListener('click', lampRendering);
@@ -118,4 +119,3 @@ function renderProducts(products){
      renderProducts(JSON.parse(tablesJSON));
     }
 
-    

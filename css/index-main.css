@@ -342,3 +342,63 @@
       background-color: var(--primary-color);
       color: var(--third-color);
   }
+
+  .carousel-logotypes {
+      display:flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      margin-top: 30px;
+  }
+  .carousel-logotypes img {
+      width: 100%;
+  }
+
+  .top-brands {
+      background-color: rgb(243, 243, 243);
+      padding: 10px;
+  }
+  
+  .kuko-collection {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 30px;
+      margin-top: 30px;
+  }
+
+  .image-kuko img {
+      width: 100%;
+  }
+
+  .info-kuko p:first-child, .info-landstrom p:first-child {
+      font-family: var(--main-font-family);
+      font-size: 14px;
+      color: var(--btn-text-color);
+  }
+
+  .info-kuko h2, .info-landstrom h2{
+    font-family: var(--main-font-family);
+    font-size: 24px;
+    color: var(--main-color);
+  }
+
+  .info-kuko h2 + p, .info-landstrom h2 + p {
+    font-family: var(--main-font-family);
+    font-size: 16px;
+    color: var(--btn-text-color);
+}
+
+   .info-kuko, .info-landstrom {
+    background-color: var(--third-color);
+    padding: 10px;
+} 
+
+  .landstrom-collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.image-landstrom img {
+    width: 100%;
+}
